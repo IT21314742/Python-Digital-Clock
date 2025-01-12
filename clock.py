@@ -18,6 +18,7 @@ class DigitalClock(QWidget):
         vbox = QVBoxLayout()
         vbox.addWidget(self.time_label)
         self.setLayout(vbox)
+        
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
