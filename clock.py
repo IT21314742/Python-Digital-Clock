@@ -21,6 +21,8 @@ class DigitalClock(QWidget):
 
         self.time_label.setAlignment(Qt.alignCenter)
 
+        self
+
 
 
 if __name__ == "__main__":
