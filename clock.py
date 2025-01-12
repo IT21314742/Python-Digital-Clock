@@ -8,6 +8,7 @@ class DigitalClock(QWidget):
     def __init__(self):
         super().__init__()
         self.time_label = QLabel(self)
+        self.timer = QTimer(self)
         self.initUI()
     
     def initUI(self):
