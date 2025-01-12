@@ -13,5 +13,6 @@ class DigitalClock(QWidget):
         pass
 
 if __name__ == "__main__":
-    
+    app = QApplication(sys.argv)
+    clock = DigitalClock()
             
