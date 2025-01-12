@@ -20,6 +20,7 @@ class DigitalClock(QWidget):
         self.setLayout(vbox)
 
         self.time_label.setAlignment(Qt)
+        
 
 
 if __name__ == "__main__":
