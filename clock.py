@@ -16,7 +16,7 @@ class DigitalClock(QWidget):
         self.setGeometry(800, 500, 500, 500)
 
         vbox = QVBoxLayout()
-        
+        vbox.addWidget
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
