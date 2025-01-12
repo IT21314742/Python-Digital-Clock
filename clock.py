@@ -11,4 +11,6 @@ class DigitalClock(QWidget):
     
     def initUI(self):
         pass
+
+    
             
