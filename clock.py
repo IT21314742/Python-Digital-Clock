@@ -14,6 +14,7 @@ class DigitalClock(QWidget):
     def initUI(self):
         self.setWindowTitle("Digital Clock")
         self.setGeometry(800, 500, 500, 500)
+
         
 
 if __name__ == "__main__":
