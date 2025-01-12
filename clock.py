@@ -12,7 +12,7 @@ class DigitalClock(QWidget):
         self.initUI()
     
     def initUI(self):
-        pass
+        self.setWindowTitle
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
