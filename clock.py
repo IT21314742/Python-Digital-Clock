@@ -24,6 +24,7 @@ class DigitalClock(QWidget):
         self.time_label.setStyleSheet("font-size: 150px;"
                                       "color: hsl(111,100%, 50%);")
         self.setStyleSheet("background-color: black;")
+        
 
         # Start timer to update time every second
         self.timer.timeout.connect(self.update_time)
