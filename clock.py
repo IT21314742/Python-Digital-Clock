@@ -25,7 +25,8 @@ class DigitalClock(QWidget):
                                       "color: hsl(111,100%, 50%);")
         self.setStyleSheet("background-color: black;")
 
-        
+        def update_time(arg):
+            pass
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
