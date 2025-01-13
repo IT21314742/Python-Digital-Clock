@@ -27,6 +27,7 @@ class DigitalClock(QWidget):
 
         def update_time(self):
             current_time = QTime.currentTime().toString("hh:mm:ss")
+            
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
