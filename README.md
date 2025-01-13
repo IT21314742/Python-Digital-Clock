@@ -1,38 +1,18 @@
-Python Digital Clock
+# Python Digital Clock
+
 A real-time digital clock built with Python and PyQt5. This project displays the current time in a readable digital format and updates every second.
 
-Features
-Real-time updates: Displays the current time, updating every second.
-Custom font: Uses the DS-DIGIT.TTF font for a retro digital clock look.
-User-friendly design: Dark background with green digits for easy readability.
-Installation
-Clone the repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/your-username/Python-Digital-Clock.git
-Navigate to the project folder:
+- **Real-time updates:** Displays the current time, updating every second.
+- **Custom font:** Uses the `DS-DIGIT.TTF` font for a retro digital clock look.
+- **User-friendly design:** Dark background with green digits for easy readability.
 
-bash
-Copy code
-cd Python-Digital-Clock
-Install dependencies:
+## Installation
 
-bash
-Copy code
-pip install PyQt5
-Download or place the DS-DIGIT.TTF font in the project folder or specify the path in the script.
+### Clone the Repository
 
-Usage
-To run the digital clock application:
+To get a copy of the repository on your local machine, run:
 
-Execute the Python script:
-
-bash
-Copy code
-python digital_clock.py
-The clock window will appear, displaying the current time in a large digital format.
-
-Customization
-Modify the font size and color in the initUI() method.
-Adjust the background and text colors using setStyleSheet().
+```bash
+git clone https://github.com/IT21314742/Python-Digital-Clock.git
