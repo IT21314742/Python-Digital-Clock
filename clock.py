@@ -22,7 +22,7 @@ class DigitalClock(QWidget):
 
         self.time_label.setStyleSheet("font-size: 150px;"
                                       "font-family: Arial;"
-                                      "color: green;")
+                                      "color: hsl(111,100%, 50%);")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
