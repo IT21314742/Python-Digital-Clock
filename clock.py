@@ -25,11 +25,14 @@ class DigitalClock(QWidget):
                                       "color: hsl(111,100%, 50%);")
         self.setStyleSheet("background-color: black;")
 
+        # Start timer to update time every second
+        self.timer.timeout.connect(self.update_time)
+        self.timer.start(1000)
         self.update_time()
 
-        def update_time(self):
-            current_time = QTime.currentTime().toString("hh:mm:ss")
-            self.time_label.setText(current_time)
+    def update_time(self):
+        current_time = QTime.currentTime().toString("hh:mm:ss")
+        self.time_label.setText(current_time)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
