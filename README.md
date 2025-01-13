@@ -1,6 +1,3 @@
-
-Yes, the content I provided is a full README file. However, if you're looking for something with more specific structure and organization, here's a refined version:
-
 Python Digital Clock
 A real-time digital clock built with Python and PyQt5. This project displays the current time in a readable digital format and updates every second.
 
