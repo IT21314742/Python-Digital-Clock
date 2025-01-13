@@ -25,7 +25,7 @@ class DigitalClock(QWidget):
                                       "color: hsl(111,100%, 50%);")
         self.setStyleSheet("background-color: black;")
 
-        self.update_time
+        self.update_time()
 
         def update_time(self):
             current_time = QTime.currentTime().toString("hh:mm:ss")
