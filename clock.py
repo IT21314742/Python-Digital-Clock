@@ -1,5 +1,3 @@
-# Python PyQt5 Digital Clock
-
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
 from PyQt5.QtCore import QTimer, QTime, Qt
@@ -10,7 +8,7 @@ class DigitalClock(QWidget):
         self.time_label = QLabel(self)
         self.timer = QTimer(self)
         self.initUI()
-    
+
     def initUI(self):
         self.setWindowTitle("Digital Clock")
         self.setGeometry(800, 500, 500, 500)
@@ -19,17 +17,15 @@ class DigitalClock(QWidget):
         vbox.addWidget(self.time_label)
         self.setLayout(vbox)
 
-        self.time_label.setAlignment(Qt.alignCenter)
+        # Corrected Alignment Enum
+        self.time_label.setAlignment(Qt.AlignCenter)
 
         self.time_label.setStyleSheet("font-size: 150px;"
-                                        "font-family: Arial;"
-                                        "color: green;")
-
-
+                                      "font-family: Arial;"
+                                      "color: green;")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     clock = DigitalClock()
     clock.show()
     sys.exit(app.exec_())
-            
