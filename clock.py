@@ -22,7 +22,8 @@ class DigitalClock(QWidget):
         self.time_label.setAlignment(Qt.alignCenter)
 
         self.time_label.setStyleSheet("font-size: 150px;"
-                                        "font-family: Arial;")
+                                        "font-family: Arial;"
+                                        "color: green;")
 
 
 
