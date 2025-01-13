@@ -24,6 +24,7 @@ class DigitalClock(QWidget):
                                       "font-family: Arial;"
                                       "color: hsl(111,100%, 50%);")
         self.setStyleSheet("background-color: black;")
+
         
 
 if __name__ == "__main__":
