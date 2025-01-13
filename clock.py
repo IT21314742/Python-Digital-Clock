@@ -25,7 +25,7 @@ class DigitalClock(QWidget):
                                       "color: hsl(111,100%, 50%);")
         self.setStyleSheet("background-color: black;")
 
-        font_id = QFontDatabase.addApplicationFont()
+        font_id = QFontDatabase.addApplicationFont("DS-DIGIT.TTF")
 
         # Start timer to update time every second
         self.timer.timeout.connect(self.update_time)
